@@ -1,0 +1,26 @@
+@import "../../scss/base";
+
+.appBg {
+    height: 100vh;
+    @include d_xyCenter;
+
+    .appContent {
+        @include d_cxCenter;
+        background: var(--gradient1);
+        width: 40%;
+        max-width: 36rem;
+        padding: 8rem 0;    
+        border-radius: 1.2rem;
+        @media screen and (max-width: 767.5px){
+            width: 100%;
+        }
+        h1 {
+            @extend %headingText;
+        }
+
+        button {
+            margin-top: 2rem;
+            @extend %btnElement;
+        }
+    }
+}

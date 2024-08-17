@@ -1,0 +1,26 @@
+:root{
+    --lightCrl1: #ffffff;
+    --lightClr2: #f8fafc;
+    --darkClr1: #2b2c49;
+    --darkClr2: #303150;
+    --varclr1: #b5b9ff;
+    --gradient1: linear-gradient(var(--darkClr1),var(--varclr1));
+
+    --fontvar1: "Roboto", sans-serif;
+
+    --fontSize1: 3.2rem;
+    --fontSize2: 1.6rem;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}

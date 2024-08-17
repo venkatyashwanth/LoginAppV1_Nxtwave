@@ -1,0 +1,32 @@
+@mixin d_xyCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin d_cxCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+%headingText {
+    font-family: var(--fontvar1);
+    font-size: var(--fontSize1);
+    font-weight: 600;
+    color: var(--lightCrl1);
+}
+
+%btnElement {
+    font-family: var(--fontvar1);
+    font-weight: 400;
+    font-size: var(--fontSize2);
+    border: none;
+    padding: .6rem 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    &:active{
+        background-color: var(--varclr1);
+        color: var(--lightCrl1);
+    }
+}
